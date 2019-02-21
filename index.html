@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/logo/ficon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Font Awesome -->
+    <script src="js/fontawesome.min.js"></script>
+    <!--CSS Preloader -->
+    <link rel="stylesheet" href="css/preloader.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Owl Carousle -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <title>Start Reading</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+    <!-- Navigation-->
+    <nav class="navbar sticky-top navbar-expand-lg  navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo/lg.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Browse Books
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="subject.html" target="_blank">By Subject</a>
+                            <a class="dropdown-item" href="newupload.html"  target="_blank">New Uploaded Books</a>
+                             <a class="dropdown-item" href="recommend.html"  target="_blank">Recommended Books</a>
+                              <a class="dropdown-item" href="trending.html"  target="_blank">Trending Books</a>
+                               <a class="dropdown-item" href="popular.html"  target="_blank">Popular Books</a>
+                                <a class="dropdown-item" href="mostview.html"  target="_blank">Most View Books</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="aboutus.html"  target="_blank">About Us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contactus.html"  target="_blank">Contact Us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search for Book..." aria-label="Search">
+                        <a href="" id="form-btnn" class=" a btn  my-2 my-sm-0" type="submit">Search</a> 
+                    </form>
+                </ul>
+                <div class="text-center">
+                
+                <a href="signin.html"  target="_blank" type="button"  class=" a btn  ">Login </a>
+               <a href="signup.html"  target="_blank" type="button" class="a btn "> Signup</a>
+            
+                 </div>
+                </div>
+            </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h1 class="display-4">Start Reading</h1>
+            <div class="lead">
+                <h3>The No #1 Online Book Reading Website for Book Lovers.</h3>
+                <button type="button" class="btn ">Download App</button>
+            </div>
+        </div>
+    </div>
+    <!-- Heading For New Uploaded Books-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <a href="newupload.html"  target="_blank" class="display-4">New Uploaded Books</a>
+            </div>
+            <hr class="my-4">
+        </div>
+    </div>
+    <!-- New Uploaded Books -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book1.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a  href="https://archive.org/stream/sprogartenpaseje00thor" data-ol-link-track="public_domain" tabindex="0" target="_blank" alt="" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book2.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/fortunesofnigel01scot" data-ol-link-track="public_domain" tabindex="0" target="_blank" alt="" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book3.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/lifeofbee00maet2"" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/cihm_62226" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book5.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/historyofcanadaf01garnuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book6.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/infernoofdanteal00dantrich" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book7.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/dialogusargicola00taciuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book8.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/cihm_29920" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book9.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/lovefreindshipie00austuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/new/book10.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/rigoletto00verd" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Heading For Recommended Books-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <a href="recommend.html"  target="_blank" class="display-4">Recommended for You</a>
+            </div>
+            <hr class="my-4">
+        </div>
+    </div>
+    <!-- Recommended Books -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book1.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a  href="https://archive.org/stream/sprogartenpaseje00thor" data-ol-link-track="public_domain" tabindex="0" target="_blank" alt="" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book2.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/fortunesofnigel01scot" data-ol-link-track="public_domain" tabindex="0" target="_blank" alt="" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book3.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/lifeofbee00maet2"" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/cihm_62226" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book5.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/historyofcanadaf01garnuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book6.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/infernoofdanteal00dantrich" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book7.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/dialogusargicola00taciuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book8.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/cihm_29920" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book9.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/lovefreindshipie00austuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/recommended/book10.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/rigoletto00verd" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Heading For Trending Books-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <a href="trending.html"  target="_blank" class="display-4">Trending Books</a>
+            </div>
+            <hr class="my-4">
+        </div>
+    </div>
+    <!-- Trending Books -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book1.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a  href="https://archive.org/stream/sprogartenpaseje00thor" data-ol-link-track="public_domain" tabindex="0" target="_blank" alt="" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book2.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/fortunesofnigel01scot" data-ol-link-track="public_domain" tabindex="0" target="_blank" alt="" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book3.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/lifeofbee00maet2"" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/cihm_62226" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book5.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/historyofcanadaf01garnuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book6.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/infernoofdanteal00dantrich" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book7.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/dialogusargicola00taciuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book8.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/cihm_29920" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book9.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/lovefreindshipie00austuoft" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+         <div class="item">
+            <div class="card text-center">
+                <img src="img/trending/book10.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="https://archive.org/stream/rigoletto00verd" data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Heading For Most Popular Books-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <a href="popular.html"  target="_blank" class="display-4">Most Popular Books</a>
+            </div>
+            <hr class="my-4">
+        </div>
+    </div>
+    <!-- Most Popular Books -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book1.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book2.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book3.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book5.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book6.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book7.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book8.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book9.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/popular/book10.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Heading For Most Viewed Books-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <a href="mostview.html"  target="_blank" class="display-4">Most Viewed Books</a>
+            </div>
+            <hr class="my-4">
+        </div>
+    </div>
+    <!-- Most Viewed Books -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book1.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book2.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book3.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book5.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book6.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book7.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book8.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book9.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card text-center">
+                <img src="img/view/book10.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <a href="#"  data-ol-link-track="public_domain" tabindex="0" target="_blank" class="btn btn-outline-secondary">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Connect -->
+    <hr class="my-4">
+    <div class="container-fluid padding">
+         <div class="row text-center padding">
+            <div class="col-12 social padding">
+         <h2>Connect</h2>
+         </div>
+           </div>
+        <div class="row text-center padding">
+            <div class="col-12 social padding">
+                <a href="https://www.faceobok.com"  target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitte.com"  target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https:/www.plus.google.com"  target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.youtube.com"  target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com"  target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h5>Copyright &copy; 2018 Digital All Rights Reserved</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+    </script>
+</body>
+</html>
